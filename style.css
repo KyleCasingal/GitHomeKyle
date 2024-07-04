@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 :root {
     --color-bg: #282828;
     --color-fg: #ebdbb2;
@@ -12,7 +13,7 @@
 html, body {
   background: var(--color-bg);
   color: var(--color-fg);
-  font-family: "SpaceMono NF";
+  font-family: "Fira Mono", monospace;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -124,6 +125,6 @@ a:hover {
 
 #Date {
 
-  font-family: 'SpaceMono NF';
+  font-family: 'Fira Mono', monospace;
   font-size: 40px;
 }
